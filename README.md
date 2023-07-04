@@ -8,7 +8,9 @@ This repository contains the medium and hard problems of Prepare C from HackerRa
 
 $$ S = \sqrt{p \cdot (p - a) \cdot (p - b) \cdot (p - c)} $$
 
-where $$ p = \frac{a + b + c}{2} $$ 
+where 
+
+$$ p = \frac{a + b + c}{2} $$ 
 
 
 **Input Format:**  
