@@ -37,7 +37,7 @@ Print exaclt n lines. On each line print **3** space-seperated integers, the **a
 <br>
 
 <br>
-**Sample Input 0**
+**Sample Output 0**
 <br>
 3 4 5
 <br>
@@ -46,6 +46,6 @@ Print exaclt n lines. On each line print **3** space-seperated integers, the **a
 7 24 25
 <br>
 <br>
-**Explanation 0**
+**Explanaiton 0**
 <br>
 The area of the first triangle is **84**. The area of the second triangle is **30**. The area of the third triangle is **6**. So the sorted order is the reverse one.
