@@ -42,4 +42,4 @@ Print exactly **n** lines. Each line should contain three space-separated intege
 ```
 
 **Explanation:**  
-The area of the first triangle is **84**. The area of the second triangle is **30**. The area of the third triangle is **6**. So, the triangles are sorted in ascending order based on their areas.
+The area of the first triangle is **84**. The area of the second triangle is **30**. The area of the third triangle is **6**.  So, the sorted order is the reverse one.
