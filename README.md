@@ -1,51 +1,44 @@
 # HackerRankPrepC
-This repository includes the medium and hard problems of Prepare C of HackerRank. 
+
+This repository contains the medium and hard problems of Prepare C from HackerRank.
 
 ## Small Triangles, Large Triangles
-Problem Definition: You are given **n** triangles, specifically **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>**. Print them in the same style but sorted by their areas from the smallest one to the largest one. It is guaranteed that all the areas are different. The best way to calculate area of a triangle with sides, **a**, **b**, and **c** is Heron' s formula:
-<br>
-S = \sqrt{p * (p-a) * (p-b) * (p-c)} where p = \frac{a + b+ c}{2}.
-<br>
-<br>
-**Input Format**
-<br>
-The first line of each test line contains a single integer **n**. **n** lines follow with three space-seperated integers, **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>**.
-<br>
-<br>
-**Constraints**
-<br>
-- 1 \leq n \leq 100
-- 1 \leq  a<sub>i</sub>, b<sub>i</sub>, c<sub>i</sub> \leq 70
-- a<sub>i</sub> + b<sub>i</sub> > c<sub>i</sub>, a<sub>i</sub> + c<sub>i</sub> > b<sub>i</sub> and b<sub>i</sub> + c<sub>i</sub> > a<sub>i</sub>
-<br>
-<br>
-**Output Format**
-<br>
-Print exaclt n lines. On each line print **3** space-seperated integers, the **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>** of the corresponding triangle.
-<br>
-<br>
-**Sample Input 0**
-<br>
 
+**Problem Definition:** Given **n** triangles, represented by **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>**, print them in ascending order of their areas. All the areas are guaranteed to be different. The area of a triangle with sides **a**, **b**, and **c** can be calculated using Heron's formula:
+
+```
+S = \sqrt{p * (p - a) * (p - b) * (p - c)}
+```
+
+where `p = \frac{a + b + c}{2}`.
+
+**Input Format:**  
+The first line of the input contains a single integer **n**. Each of the next **n** lines contains three space-separated integers, **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>**, representing the sides of a triangle.
+
+**Constraints:**  
+- 1 ≤ n ≤ 100
+- 1 ≤ a<sub>i</sub>, b<sub>i</sub>, c<sub>i</sub> ≤ 70
+- a<sub>i</sub> + b<sub>i</sub> > c<sub>i</sub>, a<sub>i</sub> + c<sub>i</sub> > b<sub>i</sub>, and b<sub>i</sub> + c<sub>i</sub> > a<sub>i</sub>
+
+**Output Format:**  
+Print exactly **n** lines. Each line should contain three space-separated integers, representing the **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>** of the corresponding triangle.
+
+**Sample Input:**
+
+```
 3
-<br>
 7 24 25
-<br>
 5 12 13
-<br>
 3 4 5
-<br>
+```
 
-<br>
-**Sample Output 0**
-<br>
+**Sample Output:**
+
+```
 3 4 5
-<br>
 5 12 13
-<br>
 7 24 25
-<br>
-<br>
-**Explanaiton 0**
-<br>
-The area of the first triangle is **84**. The area of the second triangle is **30**. The area of the third triangle is **6**. So the sorted order is the reverse one.
+```
+
+**Explanation:**  
+The area of the first triangle is **84**. The area of the second triangle is **30**. The area of the third triangle is **6**. So, the triangles are sorted in ascending order based on their areas.
