@@ -24,7 +24,7 @@ The first line of the input contains a single integer **n**. Each of the next **
 **Output Format:**  
 Print exactly **n** lines. Each line should contain three space-separated integers, representing the **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>** of the corresponding triangle.
 
-**Sample Input:**
+**Sample Input 0**
 
 ```
 3
@@ -33,7 +33,7 @@ Print exactly **n** lines. Each line should contain three space-separated intege
 3 4 5
 ```
 
-**Sample Output:**
+**Sample Output 0**
 
 ```
 3 4 5
@@ -41,5 +41,46 @@ Print exactly **n** lines. Each line should contain three space-separated intege
 7 24 25
 ```
 
-**Explanation:**  
+**Explanation 0**  
 The area of the first triangle is **84**. The area of the second triangle is **30**. The area of the third triangle is **6**.  So, the sorted order is the reverse one.
+
+
+## 2. Variadic Functions in C (Medium) [Link to Relative Solution](variadicFunctions.c)
+
+**Problem Definition:** Variadic functions are functions which take a variable number of arguments. In C programming, a variadic function will contribute to the flexibility of the program that you are developing.
+
+The declaration of a variadic function starts with the declaration of at least one named variable, and uses an ellipsis as the last parameter, e.g. 
+
+```
+int printf(const char* format, ...);
+```
+
+In this problem, you will implement three variadic functions named , and to calculate sums, minima, maxima of a variable number of arguments. The first argument passed to the variadic function is the count of the number of arguments, which is followed by the arguments themselves. 
+
+
+**Input Format:**  
+- The first line of the input consists of an integer **number_of_test_cases**.
+- Each test case tests the logic of your code by sending a test implementation of 3, 5 and 10 elements respectively. 
+- Each test case tests the logic of your code by sending a test implementation of 3, 5 and 10 elements respectively. 
+- The error log prints the parameters which are passed to the test implementation. It also prints the sum, minimum element and maximum element corresponding to your code. 
+
+**Constraints:**  
+- 1 ≤ number_of_test_cases ≤ 50
+- 1 element ≤ 1000000
+
+**Output Format:**  
+"Correct Answer" is printed corresponding to each correct execution of a test implementation."Wrong Answer" is printed otherwise. 
+
+**Sample Input 0**
+
+```
+1
+```
+
+**Sample Output 0**
+
+```
+Correct Answer
+Correct Answer
+Correct Answer
+```
