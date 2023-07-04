@@ -2,7 +2,7 @@
 
 This repository contains the medium and hard problems of Prepare C from HackerRank.
 
-## 1.Small Triangles, Large Triangles (Medium) [Link to Relative Solution](smallLargeTriangles.c)
+## 1. Small Triangles, Large Triangles (Medium) [Link to Relative Solution](smallLargeTriangles.c)
 
 **Problem Definition:** Given **n** triangles, represented by **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>**, print them in ascending order of their areas. All the areas are guaranteed to be different. The area of a triangle with sides **a**, **b**, and **c** can be calculated using Heron's formula:
 
