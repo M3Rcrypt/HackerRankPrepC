@@ -6,11 +6,10 @@ This repository contains the medium and hard problems of Prepare C from HackerRa
 
 **Problem Definition:** Given **n** triangles, represented by **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>**, print them in ascending order of their areas. All the areas are guaranteed to be different. The area of a triangle with sides **a**, **b**, and **c** can be calculated using Heron's formula:
 
-```
-S = \sqrt{p * (p - a) * (p - b) * (p - c)}
-```
+$$ S = \sqrt{p \cdot (p - a) \cdot (p - b) \cdot (p - c)} $$
 
-where `p = \frac{a + b + c}{2}`.
+where $$ p = \frac{a + b + c}{2} $$.
+
 
 **Input Format:**  
 The first line of the input contains a single integer **n**. Each of the next **n** lines contains three space-separated integers, **a<sub>i</sub>**, **b<sub>i</sub>**, and **c<sub>i</sub>**, representing the sides of a triangle.
