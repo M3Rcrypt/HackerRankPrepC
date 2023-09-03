@@ -167,9 +167,9 @@ The input will contain a single integer **n**.
 
 **Problem Definition:** Snow Howler is the librarian at the central library of the city of HuskyLand. He must handle requests which come in the following forms:
 
-1 x y : Insert a book with **y** pages at the end of the $\x^th$ shelf.
+1 x y : Insert a book with **y** pages at the end of the $x^(th)$ shelf.
 
-2 x y : Print the number of pages in the $\y^th$ book on the $\x^th$ shelf.
+2 x y : Print the number of pages in the $\y^th$ book on the $x^th$ shelf.
 
 3 x : Print the number of books on the $\x^th$ shelf.
 
