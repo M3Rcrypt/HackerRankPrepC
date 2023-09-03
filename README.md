@@ -169,7 +169,7 @@ The input will contain a single integer **n**.
 
 1 x y : Insert a book with **y** pages at the end of the **x<sup>th</sup>** shelf.
 
-2 x y : Print the number of pages in the **y<sup>th</sup>** book on the $x^th$ shelf.
+2 x y : Print the number of pages in the **y<sup>th</sup>** book on the **x<sup>th</sup>** shelf.
 
 3 x : Print the number of books on the **x<sup>th</sup>** shelf.
 
